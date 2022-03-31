@@ -1,0 +1,222 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --background-color-secondary: #f5f4fa;
+  --background-color-accent: #2f303a;
+}
+
+body {
+  background-color: var(--white-color);
+  color: var(--primary-text-color);
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.logo {
+  color: #000000;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo-web {
+  color: var(--accent-color);
+}
+
+/* Навигации по сайту */
+.site-nav {
+  list-style: none;
+}
+.site-nav .link {
+  color: var(--title-text-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* Контакты в хедере */
+.contacts-list {
+  list-style: none;
+}
+.contacts-list .link {
+  color: var(--primary-text-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.contacts-list .link:hover,
+.contacts-list .link:focus {
+  color: var(--accent-color);
+}
+
+/* Основной заголовок сайта */
+.title-main-section {
+  color: var(--white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.main-section {
+  background-color: var(--background-color-accent);
+}
+
+/* Кнопки */
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.button {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+.button.primary {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+/* Наши преимущества */
+.advantages,
+.portfolio {
+  display: none;
+}
+.advantages-list {
+  list-style: none;
+}
+.advantages-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.advantages-text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* Чем мы занимаемся */
+.section-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.activity_list {
+  list-style: none;
+}
+
+/* Наша команда */
+.team-list {
+  list-style: none;
+}
+.team-name {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+.team-profession {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+/* Подвал сайта */
+.logo-footer {
+  color: var(--white-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.logo-web-footer {
+  color: var(--accent-color);
+}
+.contacts-list .address-link {
+  color: var(--white-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+}
+.contacts-list .address-link:hover,
+.contacts-list .address-link:focus {
+  color: var(--accent-color);
+}
+
+.contacts-list .contacts-link {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+}
+.contacts-list .contacts-link:hover,
+.contacts-list .contacts-link:focus {
+  color: var(--accent-color);
+}
+
+.section-footer {
+  background-color: var(--background-color-accent);
+}
+/* Стили для страницы Портфолио */
+.button-list,
+.work-list {
+  list-style: none;
+}
+
+/* Фильтры поиска */
+.button.secondary {
+  color: var(--title-text-color);
+  background-color: var(--background-color-secondary);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+}
+.button.secondary:hover,
+.button.secondary:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+/* Примеры работ */
+.work-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.work-category {
+  font-size: 16px;
+  line-height: 1.88;
+}
